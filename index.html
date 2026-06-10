@@ -1,796 +1,925 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="Grayrids">
-    <title>MZMS Technologies</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammad Zulhilmi Md Salahan — Staff Quality Engineer, AI Testing Specialist with 10+ years of expertise in test automation, CI/CD, and AI-assisted QA." />
+  <meta name="keywords" content="QA Engineer, Test Automation, AI Testing, Cypress, ISTQB, CI/CD, Malaysia" />
+  <meta name="author" content="Muhammad Zulhilmi Md Salahan" />
+  <title>Muhammad Zulhilmi | Staff QE &amp; AI Testing Specialist</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/line-icons.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
-    <link rel="stylesheet" href="css/nivo-lightbox.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/menu_sideslide.css">
-    <link rel="stylesheet" href="css/main.css">    
-    <link rel="stylesheet" href="css/responsive.css">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Muhammad Zulhilmi | Staff QE & AI Testing Specialist" />
+  <meta property="og:description" content="10+ years in QA, specializing in AI-assisted test automation, Cypress, and CI/CD pipeline engineering." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mzulhilmi.github.io" />
 
-  </head>
-  <body>
-      <div class="menu-wrap">
-        <nav class="menu navbar">
-          <div class="icon-list navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#video-area">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>  
-              <li class="nav-item">
-                <a class="nav-link" href="#features">Features</a>
-              </li>                            
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolios">Our Works</a>
-              </li>            
-              <li class="nav-item">
-                <a class="nav-link" href="#pricing">Pricing</a>
-              </li>     
-              <li class="nav-item">
-                <a class="nav-link" href="#blog">Blog</a>
-              </li> 
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li> 
-              <li class="nav-item">
-                <a class="nav-link" href="#subscribe">Subscribe</a>
-              </li>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/portfolio.css" />
+</head>
+<body>
+
+  <!-- ========== NAV ========== -->
+  <nav class="nav" id="nav">
+    <div class="nav__container">
+      <a href="#hero" class="nav__logo">MZ<span>.</span></a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="Resume-ZulhilmiSalahan.docx" download class="btn btn--sm btn--outline nav__resume">
+        <i class="fas fa-download"></i> Resume
+      </a>
+      <a href="mailto:muhammadzulhilmi2493@gmail.com" class="btn btn--sm btn--primary nav__cta">Hire Me</a>
+      <button class="nav__burger" id="navBurger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+    </div>
+    <div class="hero__container">
+      <div class="hero__badge">
+        <span class="pulse-dot"></span>
+        Available for Opportunities
+      </div>
+      <h1 class="hero__name">Muhammad<br /><span class="gradient-text">Zulhilmi</span></h1>
+      <div class="hero__typewriter">
+        <span id="typewriter"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero__desc">
+        Staff Quality Engineer with <strong>10+ years</strong> of expertise in advanced test automation, 
+        AI-assisted testing, and CI/CD engineering. ISTQB Certified AI Tester driving the future of quality.
+      </p>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num">10+</span>
+          <span class="stat__label">Years Experience</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__num">9</span>
+          <span class="stat__label">Certifications</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__num">5+</span>
+          <span class="stat__label">Companies</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__num">CT-AI</span>
+          <span class="stat__label">ISTQB AI Tester</span>
+        </div>
+      </div>
+      <div class="hero__actions">
+        <a href="#experience" class="btn btn--primary">View Experience</a>
+        <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+        <a href="Resume-ZulhilmiSalahan.docx" download class="btn btn--outline">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
+      <div class="hero__socials">
+        <a href="https://www.linkedin.com/in/muhammadzulhilmi/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/mzmstechnologies" target="_blank" rel="noopener" aria-label="GitHub (Work)">
+          <i class="fab fa-github"></i>
+          <span class="social__label">Work</span>
+        </a>
+        <a href="https://github.com/ZulhilmiSalahan-Kinesso" target="_blank" rel="noopener" aria-label="GitHub (KINESSO)">
+          <i class="fab fa-github"></i>
+          <span class="social__label">KINESSO</span>
+        </a>
+        <a href="mailto:muhammadzulhilmi2493@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Who I Am</span>
+        <h2 class="section__title">About Me</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__visual">
+          <div class="about__avatar">
+            <div class="about__avatar-inner">
+              <img
+                src="https://github.com/ZulhilmiSalahan-Kinesso.png"
+                alt="Muhammad Zulhilmi Md Salahan"
+                class="avatar__photo"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+              />
+              <div class="avatar__initials" style="display:none">MZ</div>
+            </div>
+            <div class="about__ai-badge">
+              <i class="fas fa-brain"></i>
+              <span>AI Tester</span>
+            </div>
+          </div>
+          <div class="about__cards">
+            <div class="about__card">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Kuala Lumpur, Malaysia</span>
+            </div>
+            <div class="about__card">
+              <i class="fas fa-briefcase"></i>
+              <span>Staff Quality Engineer @ KINESSO</span>
+            </div>
+            <div class="about__card">
+              <i class="fas fa-graduation-cap"></i>
+              <span>B.Sc. ICT, Software Engineering — UTP</span>
+            </div>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="about__lead">
+            I'm a highly accomplished <strong>Staff Quality Engineer</strong> with over a decade of expertise 
+            specializing in advanced software test automation, CI/CD pipeline optimization, and 
+            <strong>cutting-edge AI testing strategies</strong>.
+          </p>
+          <p>
+            With a proven track record of architecting scalable automation frameworks from scratch, 
+            I actively lead QA transformation by coaching teams to pivot toward AI-assisted automation, 
+            utilizing modern toolsets to streamline validation processes and maximize engineering efficiency.
+          </p>
+          <p>
+            I hold the prestigious <strong>ISTQB Certified Tester — AI Testing (CT-AI)</strong> certification, 
+            alongside multiple advanced-level ISTQB qualifications, reflecting my deep commitment to quality 
+            engineering excellence at the intersection of AI and software testing.
+          </p>
+          <div class="about__highlights">
+            <div class="highlight">
+              <i class="fas fa-robot"></i>
+              <div>
+                <strong>AI-First Mindset</strong>
+                <span>Pioneering AI-assisted test automation frameworks</span>
+              </div>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-cogs"></i>
+              <div>
+                <strong>Framework Architect</strong>
+                <span>Built enterprise-scale Cypress & Robot Framework solutions</span>
+              </div>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-users"></i>
+              <div>
+                <strong>QA Leader & Mentor</strong>
+                <span>Upskilling teams in modern test automation strategies</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section section--dark" id="skills">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">What I Do</span>
+        <h2 class="section__title">Technical Expertise</h2>
+        <p class="section__subtitle">A comprehensive stack built over a decade of engineering excellence</p>
+      </div>
+      <div class="skills__grid">
+
+        <div class="skill-card skill-card--featured">
+          <div class="skill-card__icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>AI &amp; Next-Gen Testing</h3>
+          <p>Leading the frontier of intelligent quality engineering</p>
+          <div class="skill-tags">
+            <span class="tag tag--ai">AI-Assisted Test Automation</span>
+            <span class="tag tag--ai">ISTQB CT-AI Certified</span>
+            <span class="tag tag--ai">Intelligent Defect Analysis</span>
+            <span class="tag tag--ai">ML Model Validation</span>
+            <span class="tag tag--ai">Predictive Quality Gates</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <i class="fas fa-vial"></i>
+          </div>
+          <h3>Automation Frameworks</h3>
+          <div class="skill-tags">
+            <span class="tag">Cypress</span>
+            <span class="tag">Selenium</span>
+            <span class="tag">Appium</span>
+            <span class="tag">Robot Framework</span>
+            <span class="tag">HP UFT</span>
+            <span class="tag">Specflow</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Java</span>
+            <span class="tag">C#</span>
+            <span class="tag">PowerShell</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <i class="fas fa-infinity"></i>
+          </div>
+          <h3>CI/CD &amp; DevOps</h3>
+          <div class="skill-tags">
+            <span class="tag">Jenkins</span>
+            <span class="tag">Spinnaker</span>
+            <span class="tag">Azure Cloud</span>
+            <span class="tag">Git</span>
+            <span class="tag">DevOps Pipelines</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <i class="fas fa-flask"></i>
+          </div>
+          <h3>Testing Methodologies</h3>
+          <div class="skill-tags">
+            <span class="tag">BDD</span>
+            <span class="tag">Data-Driven Testing</span>
+            <span class="tag">ETL Testing</span>
+            <span class="tag">API Validation</span>
+            <span class="tag">Performance Benchmarking</span>
+            <span class="tag">Load Testing</span>
+            <span class="tag">White-Box &amp; Black-Box</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Leadership &amp; Strategy</h3>
+          <div class="skill-tags">
+            <span class="tag">QA Process Optimization</span>
+            <span class="tag">Quality Gates Management</span>
+            <span class="tag">Agile QA Leadership</span>
+            <span class="tag">Technical Mentoring</span>
+            <span class="tag">Release Management</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Career Journey</span>
+        <h2 class="section__title">Work Experience</h2>
+        <p class="section__subtitle">10+ years of building quality at scale</p>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline__item" data-animate>
+          <div class="timeline__marker">
+            <div class="timeline__dot timeline__dot--current"></div>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Staff Quality Engineer</h3>
+                <span class="timeline__company">
+                  <i class="fas fa-building"></i> KINESSO Malaysia — Petaling Jaya
+                </span>
+              </div>
+              <span class="timeline__period badge badge--current">Jul 2025 – Present</span>
+            </div>
+            <ul class="timeline__bullets">
+              <li>Spearheads strategic leadership of overall engineering quality initiatives across teams</li>
+              <li>Drives continuous improvement of QA and software testing processes company-wide</li>
+              <li>Coaches and mentors QA team with dedicated focus on AI tools and automation strategies</li>
+              <li>Audited and overhauled testing frameworks to streamline CI/CD release cycles</li>
+              <li>Designed internal technical upskilling roadmap focusing on AI-assisted test authoring</li>
             </ul>
+            <div class="timeline__tags">
+              <span class="tag tag--ai">AI Leadership</span>
+              <span class="tag">CI/CD</span>
+              <span class="tag">Team Mentoring</span>
+              <span class="tag">QA Strategy</span>
+            </div>
           </div>
-        </nav> 
-        <button class="close-button" id="close-button"><i class="lnr lnr-cross"></i></button>
-      </div>      
-  	<!-- Header Section Start -->
+        </div>
 
-    <header id="video-area" data-stellar-background-ratio="0.5" style="background-image:url('https://scontent.fkul13-1.fna.fbcdn.net/v/t1.0-9/10612705_10205478868037145_8971857794405983386_n.jpg?oh=68a19c9917917d1252fafb4b7eaa0c29&oe=5AB78284'); background-repeat:no-repeat; background-size:cover;background-position:center">    
-      <div id="block" data-vide-bg="video/video"></div>
-      <div class="fixed-top">
-          <div class="container">
-            <div class="logo-menu">
-              <a href="index.html" class="logo"><span class="lnr lnr-diamond"></span> MZMS Technologies</a>
-              <!-- <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>    -->
-            </div>           
+        <div class="timeline__item" data-animate>
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
           </div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Senior Quality Engineer</h3>
+                <span class="timeline__company">
+                  <i class="fas fa-building"></i> KINESSO Malaysia — Kuala Lumpur
+                </span>
+              </div>
+              <span class="timeline__period badge">Jan 2020 – Jul 2025</span>
+            </div>
+            <ul class="timeline__bullets">
+              <li>Implemented and set up the Cypress framework for comprehensive front-end testing</li>
+              <li>Served as SME for API and front-end automation testing architectures</li>
+              <li>Researched and developed automated frameworks for ETL testing workflows</li>
+              <li>Led platform migration from legacy Jenkins to Spinnaker for all testing projects</li>
+              <li>Orchestrated end-to-end testing coverage across front-end, functional APIs, and ETL pipelines</li>
+              <li>Developed central Cypress framework configuration used across the entire company ecosystem</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag">Cypress</span>
+              <span class="tag">ETL Testing</span>
+              <span class="tag">API Testing</span>
+              <span class="tag">Spinnaker</span>
+              <span class="tag">Jenkins</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-animate>
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Technical QA Engineer</h3>
+                <span class="timeline__company">
+                  <i class="fas fa-building"></i> Sitecore — Kuala Lumpur
+                </span>
+              </div>
+              <span class="timeline__period badge">May 2018 – Jan 2020</span>
+            </div>
+            <ul class="timeline__bullets">
+              <li>Built and managed BDD automation test suites for Managed Cloud Billing on Azure</li>
+              <li>Collaborated with CloudOps for data integrity and Sitecore xDB migrations</li>
+              <li>Optimized test suites for parallel execution, slashing CI/CD pipeline runtime</li>
+              <li>Developed PowerShell utility scripts reducing Azure Cloud operational billing overheads</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag">BDD</span>
+              <span class="tag">Azure</span>
+              <span class="tag">PowerShell</span>
+              <span class="tag">Cloud Testing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-animate>
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Automation Test Engineer</h3>
+                <span class="timeline__company">
+                  <i class="fas fa-building"></i> INDRA Malaysia (Client: AirAsia) — Kuala Lumpur
+                </span>
+              </div>
+              <span class="timeline__period badge">Aug 2017 – May 2018</span>
+            </div>
+            <ul class="timeline__bullets">
+              <li>Automated and maintained core test suites for AirAsia's enterprise systems</li>
+              <li>Converted manual regression sweeps into robust, reusable keywords using Robot Framework</li>
+              <li>Conducted system maintenance and logic optimization for AirAsia's Data-Driven Testing tool</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag">Robot Framework</span>
+              <span class="tag">Web Automation</span>
+              <span class="tag">Mobile Automation</span>
+              <span class="tag">DDT</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-animate>
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Software Quality Engineer (Level 2)</h3>
+                <span class="timeline__company">
+                  <i class="fas fa-building"></i> Quintiq (Dassault Systèmes) — Petaling Jaya
+                </span>
+              </div>
+              <span class="timeline__period badge">Oct 2015 – Aug 2017</span>
+            </div>
+            <ul class="timeline__bullets">
+              <li>Ensured end-to-end software quality across all system releases to customer deployment</li>
+              <li>Participated in full SDLC: requirements, risk analysis, test architecture, and execution</li>
+              <li>Built distributed mobile test execution grid using Appium and Selenium Grid</li>
+              <li>Validated API libraries using white-box unit test frameworks and pytest scripts</li>
+              <li>Conducted performance and benchmarking testing using HP LoadRunner</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag">Appium</span>
+              <span class="tag">Selenium Grid</span>
+              <span class="tag">HP LoadRunner</span>
+              <span class="tag">Performance Testing</span>
+              <span class="tag">pytest</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-animate>
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Freelance Web &amp; Mobile Developer</h3>
+                <span class="timeline__company">
+                  <i class="fas fa-laptop-code"></i> Freelancer.com — Remote
+                </span>
+              </div>
+              <span class="timeline__period badge">2014 – Present</span>
+            </div>
+            <ul class="timeline__bullets">
+              <li>Built cross-platform mobile applications using Phonegap Framework</li>
+              <li>Developed tailored websites for personal, business, and event use cases</li>
+              <li>Embedded within early-stage startup engineering teams during product development</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag">Mobile Dev</span>
+              <span class="tag">Web Dev</span>
+              <span class="tag">Phonegap</span>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="overlay overlay-2"></div>      
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-md-10">
-            <div class="contents text-center">
-              <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">MZMS TECHNOLOGIES</h1>
-              <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">Software Quality Engineer | Web Developer | Mobile App Developer</p>
-              <!-- <a href="#" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><i class="lnr lnr-download"></i> Download</a> -->
-            </div>
-          </div>
-        </div> 
-      </div>      
-    </header>
-    <!-- Header Section End --> 
+    </div>
+  </section>
 
-
-	<!-- Services Section Start -->
-	<!--
-    <section id="services" class="section">
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Services</span></h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-              <div class="icon">
-                <i class="lnr lnr-pencil"></i>
-              </div>
-              <h4>Content Writing</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">
-              <div class="icon">
-                <i class="lnr lnr-cog"></i>
-              </div>
-              <h4>Web Development</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.6s">
-              <div class="icon">
-                <i class="lnr lnr-chart-bars"></i>
-              </div>
-              <h4>Graphic Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-              <div class="icon">
-                <i class="lnr lnr-layers"></i>
-              </div>
-              <h4>UI/UX Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="1s">
-              <div class="icon">
-                <i class="lnr lnr-tablet"></i>
-              </div>
-              <h4>App Development</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
-              <div class="icon">
-                <i class="lnr lnr-briefcase"></i>
-              </div>
-              <h4>Digital Marketing</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-            </div>
-          </div>
-        </div>
+  <!-- ========== CERTIFICATIONS ========== -->
+  <section class="section section--dark" id="certifications">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Credentials</span>
+        <h2 class="section__title">Certifications</h2>
+        <p class="section__subtitle">Industry-recognized qualifications validating expertise across quality engineering and AI testing</p>
       </div>
-	</section>
-	-->
-    <!-- Services Section End -->
+      <div class="certs__grid">
 
-	<!-- Features Section Start -->
-	<!--
-    <section id="features" class="section" data-stellar-background-ratio="0.2">
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Amazing <span>Features</span></h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="content-left text-right wow fadeInLeft animated" data-wow-offset="10">
-              <div class="box-item left">
-                <span class="icon">
-                  <i class="lnr lnr-rocket"></i>
-                </span>
-                <div class="text">
-                  <h4>Bootstrap 4 Based</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-              </div>
-              <div class="box-item left">
-                <span class="icon">
-                  <i class="lnr lnr-laptop-phone"></i>
-                </span>
-                <div class="text">
-                  <h4>Fully Responsive</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-              </div>
-              <div class="box-item left">
-                <span class="icon">
-                  <i class="lnr lnr-cog"></i>
-                </span>
-                <div class="text">
-                  <h4>HTML5 & CSS3</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                </div>
-              </div>
-            </div>
+        <div class="cert-card cert-card--featured">
+          <div class="cert-card__ribbon">Latest</div>
+          <div class="cert-card__icon cert-card__icon--ai">
+            <i class="fas fa-brain"></i>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="show-box wow fadeInDown animated" data-wow-offset="10">
-              <img src="img/features/feature.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="content-right text-left wow fadeInRight animated" data-wow-offset="10">
-              <div class="box-item right">
-                <span class="icon">
-                  <i class="lnr lnr-camera-video"></i>
-                </span>
-                <div class="text">
-                  <h4>Video Background</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                </div>
-              </div>
-              <div class="box-item right">
-                <span class="icon">
-                  <i class="lnr lnr-magic-wand"></i>
-                </span>
-                <div class="text">
-                  <h4>Parallax Sections</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-              </div>
-              <div class="box-item right">
-                <span class="icon">
-                  <i class="lnr lnr-spell-check"></i>
-                </span>
-                <div class="text">
-                  <h4>Ajax Contact Form</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-              </div>
-            </div>
+          <div class="cert-card__body">
+            <span class="cert-card__issuer">ISTQB</span>
+            <h3>Certified Tester — AI Testing</h3>
+            <span class="cert-card__id">CT-AI</span>
+            <span class="cert-card__date"><i class="fas fa-calendar"></i> April 2026</span>
           </div>
         </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon">
+            <i class="fas fa-infinity"></i>
+          </div>
+          <div class="cert-card__body">
+            <span class="cert-card__issuer">ASTQB</span>
+            <h3>DevOps Testing Certification</h3>
+            <span class="cert-card__date"><i class="fas fa-calendar"></i> March 2025</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon">
+            <i class="fas fa-microscope"></i>
+          </div>
+          <div class="cert-card__body">
+            <span class="cert-card__issuer">ISTQB</span>
+            <h3>CTAL — Technical Test Analyst</h3>
+            <span class="cert-card__date"><i class="fas fa-calendar"></i> 2022</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="cert-card__body">
+            <span class="cert-card__issuer">ISTQB</span>
+            <h3>CTAL — Test Automation Engineer</h3>
+            <span class="cert-card__date"><i class="fas fa-calendar"></i> 2022</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon">
+            <i class="fas fa-running"></i>
+          </div>
+          <div class="cert-card__body">
+            <span class="cert-card__issuer">ISTQB</span>
+            <h3>CTAL — Agile Tester</h3>
+            <span class="cert-card__date"><i class="fas fa-calendar"></i> 2022</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <div class="cert-card__body">
+            <span class="cert-card__issuer">ISTQB</span>
+            <h3>CTFL — Agile Tester Extension</h3>
+            <span class="cert-card__date"><i class="fas fa-calendar"></i> 2022</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <div class="cert-card__body">
+            <span class="cert-card__issuer">IREB</span>
+            <h3>Certified Professional — Requirements Engineering</h3>
+            <span class="cert-card__id">CPRE</span>
+            <span class="cert-card__date"><i class="fas fa-calendar"></i> 2015</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div class="cert-card__body">
+            <span class="cert-card__issuer">ISTQB</span>
+            <h3>Certified Tester Foundation Level</h3>
+            <span class="cert-card__id">CTFL</span>
+            <span class="cert-card__date"><i class="fas fa-calendar"></i> 2014</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <div class="cert-card__body">
+            <span class="cert-card__issuer">Huawei</span>
+            <h3>Huawei Certified Network Associate</h3>
+            <span class="cert-card__id">HCNA</span>
+            <span class="cert-card__date"><i class="fas fa-calendar"></i> 2013</span>
+          </div>
+        </div>
+
       </div>
-	</section>
-	-->
-    <!-- Features Section End -->    
+    </div>
+  </section>
 
-	<!-- Start Video promo Section -->
-	<!--
-    <section class="video-promo section" data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-              <div class="video-promo-content text-center">
-                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Our Introductory Video</h2>
-                <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Learn more about us, its only 30mins</p>
-                <a href="https://www.youtube.com/watch?v=r44RKWyfcFw" class="video-popup wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s"><i class="lnr lnr-film-play"></i></a>
-              </div>
-          </div>
-        </div>
+  <!-- ========== PROJECTS ========== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Portfolio</span>
+        <h2 class="section__title">Notable Projects</h2>
+        <p class="section__subtitle">From enterprise frameworks to open-source contributions</p>
       </div>
-	</section>
-	-->
-    <!-- End Video Promo Section -->
+      <div class="projects__grid">
 
-	<!-- Portfolio Section -->
-	<!--
-    <section id="portfolios" class="section">
-      // Container Starts
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Works</span></h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
-        </div>
-        <div class="row">          
-          <div class="col-md-12">
-            //	Portfolio Controller/Buttons
-            <div class="controls text-center wow fadeInUp" data-wow-delay=".6s">
-              <a class="control mixitup-control-active btn btn-common" data-filter="all">
-                All 
+        <div class="project-card project-card--featured">
+          <div class="project-card__header">
+            <div class="project-card__icon"><i class="fas fa-universal-access"></i></div>
+            <div class="project-card__links">
+              <a href="https://github.com/wakjong/accessibility_automation_with_robot_framework" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fab fa-github"></i>
               </a>
-              <a class="control btn btn-common" data-filter=".marketing">
-                Design 
+            </div>
+          </div>
+          <h3>Accessibility Testing Framework</h3>
+          <p>Automated framework checking accessibility issues in websites using WAVE Web Accessibility and Robot Framework, generating reports for developer remediation.</p>
+          <div class="project-card__tags">
+            <span class="tag">Robot Framework</span>
+            <span class="tag">WAVE API</span>
+            <span class="tag">Python</span>
+            <span class="tag">Accessibility</span>
+          </div>
+          <span class="project-card__year">2017 – Present</span>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__header">
+            <div class="project-card__icon"><i class="fas fa-database"></i></div>
+            <div class="project-card__links">
+              <a href="https://github.com/mzmstechnologies" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fab fa-github"></i>
               </a>
-              <a class="control btn btn-common" data-filter=".planning">
-                Development
+            </div>
+          </div>
+          <h3>Automatic Document Classification System</h3>
+          <p>AI-powered classification system focused on utility bills (electric and water), leveraging machine learning for automated document categorization.</p>
+          <div class="project-card__tags">
+            <span class="tag tag--ai">Machine Learning</span>
+            <span class="tag">Python</span>
+            <span class="tag">Classification</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__header">
+            <div class="project-card__icon"><i class="fas fa-cloud-sun"></i></div>
+          </div>
+          <h3>Weather Data Transmission via Neural Network</h3>
+          <p>Final Year Project — offshore big data communication using neural network prediction to reduce bandwidth. Built with C++, Tsunami UDP, ODroid-C1, and WeatherBoard sensors.</p>
+          <div class="project-card__tags">
+            <span class="tag tag--ai">Neural Network</span>
+            <span class="tag">C++</span>
+            <span class="tag">IoT</span>
+            <span class="tag">Big Data</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__header">
+            <div class="project-card__icon"><i class="fas fa-mosque"></i></div>
+          </div>
+          <h3>HajjApps</h3>
+          <p>Mobile application for tracking the Hajj pilgrimage checklist with personal profile management, checklist system, and weather forecast integration.</p>
+          <div class="project-card__tags">
+            <span class="tag">Mobile</span>
+            <span class="tag">Cross-Platform</span>
+            <span class="tag">Phonegap</span>
+          </div>
+          <span class="project-card__year">2016</span>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__header">
+            <div class="project-card__icon"><i class="fas fa-file-contract"></i></div>
+            <div class="project-card__links">
+              <a href="https://wcatms.muhammadzulhilmi.com" target="_blank" rel="noopener" aria-label="Live Site">
+                <i class="fas fa-external-link-alt"></i>
               </a>
-              <a class="control btn btn-common" data-filter=".research">
-                Print 
+            </div>
+          </div>
+          <h3>Company Tender Management System</h3>
+          <p>A full-featured web system for managing company tenders and procurement workflows.</p>
+          <div class="project-card__tags">
+            <span class="tag">Web App</span>
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+          </div>
+          <span class="project-card__year">2016</span>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__header">
+            <div class="project-card__icon"><i class="fas fa-dumbbell"></i></div>
+            <div class="project-card__links">
+              <a href="https://legacyfitness.com.my" target="_blank" rel="noopener" aria-label="Live Site">
+                <i class="fas fa-external-link-alt"></i>
               </a>
             </div>
-            // Portfolio Controller/Buttons Ends      
-
-            // Portfolio Recent Projects
-            <div id="portfolio" class="row wow fadeInUp" data-wow-delay="0.8s">
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img1.jpg">
-                      <img src="img/portfolio/img1.jpg" alt="" />  
-                      <i class="lnr lnr-plus-circle item-icon"></i>
-                    </a>
-                  </div>               
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img2.jpg">
-                      <img src="img/portfolio/img2.jpg" alt="" />  
-                      <i class="lnr lnr-plus-circle item-icon"></i>
-                    </a>
-                  </div>               
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix research">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img3.jpg">
-                      <img src="img/portfolio/img3.jpg" alt="" />  
-                      <i class="lnr lnr-plus-circle item-icon"></i>
-                    </a>
-                  </div>               
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing research">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img4.jpg">
-                      <img src="img/portfolio/img4.jpg" alt="" />  
-                      <i class="lnr lnr-plus-circle item-icon"></i>
-                    </a>
-                  </div>               
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img5.jpg">
-                      <img src="img/portfolio/img5.jpg" alt="" />  
-                      <i class="lnr lnr-plus-circle item-icon"></i>
-                    </a>
-                  </div>               
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning research">
-                <div class="portfolio-item">
-                  <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img6.jpg">
-                      <img src="img/portfolio/img6.jpg" alt="" />  
-                      <i class="lnr lnr-plus-circle item-icon"></i>
-                    </a>
-                  </div>               
-                </div>
-              </div>
-            </div>
           </div>
-        </div>
-	  </div>
-	
-      // Container Ends
-	</section>
-	-->
-    <!-- Portfolio Section Ends --> 
-
-	<!-- Start Pricing Table Section -->
-	<!--
-    <div id="pricing" class="section pricing-section">
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Pricing <span>Plans</span></h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
+          <h3>LegacyFitness.com</h3>
+          <p>Business website developed for a fitness brand, featuring responsive design and content management.</p>
+          <div class="project-card__tags">
+            <span class="tag">Web Dev</span>
+            <span class="tag">Responsive Design</span>
+          </div>
+          <span class="project-card__year">2016</span>
         </div>
 
-        <div class="row pricing-tables">
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table table-left wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-rocket"></i> 
-              </div>
-              <div class="pricing-details">
-                <h2>Starter Plan</h2>
-                <span>Free</span>
-                <ul>
-                  <li>Consectetur adipiscing</li>
-                  <li>Nunc luctus nulla et tellus</li>
-                  <li>Suspendisse quis metus</li>
-                  <li>Vestibul varius fermentum erat</li>
-                </ul>
-              </div>
-              <div class="plan-button">
-                <a href="#" class="btn btn-common">Get Plan</a>
-              </div>
-            </div>
-          </div>
+      </div>
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-heart"></i> 
-              </div>
-              <div class="pricing-details">
-                <h2>Popular Plan</h2>
-                <span>$3.99</span>
-                <ul>
-                  <li>Consectetur adipiscing</li>
-                  <li>Nunc luctus nulla et tellus</li>
-                  <li>Suspendisse quis metus</li>
-                  <li>Vestibul varius fermentum erat</li>
-                </ul>
-              </div>
-              <div class="plan-button">
-                <a href="#" class="btn btn-common">Buy Now</a>
-              </div>
-            </div>
+      <!-- Open Source Frameworks -->
+      <div class="oss-block">
+        <div class="oss-block__header">
+          <div class="oss-block__title">
+            <i class="fab fa-github"></i>
+            <span>Open Source @ KINESSO</span>
           </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table table-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-magic-wand"></i> 
-              </div>
-              <div class="pricing-details">
-                <h2>Premium Plan</h2>
-                <span>$9.50</span>
-                <ul>
-                  <li>Consectetur adipiscing</li>
-                  <li>Nunc luctus nulla et tellus</li>
-                  <li>Suspendisse quis metus</li>
-                  <li>Vestibul varius fermentum erat</li>
-                </ul>
-              </div>
-              <div class="plan-button">
-                <a href="#" class="btn btn-common">Buy Now</a>
-              </div>
+          <a href="https://github.com/ZulhilmiSalahan-Kinesso" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">
+            View All Repos <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="oss-grid">
+          <a href="https://github.com/ZulhilmiSalahan-Kinesso/performance-automation-framework" target="_blank" rel="noopener" class="oss-card">
+            <div class="oss-card__icon"><i class="fas fa-tachometer-alt"></i></div>
+            <div class="oss-card__body">
+              <h4>performance-automation-framework</h4>
+              <p>Performance test automation framework built with HTML tooling</p>
             </div>
-          </div>
-
+            <div class="oss-card__meta">
+              <span><i class="fas fa-circle" style="color:#e34c26"></i> HTML</span>
+              <span><i class="fas fa-star"></i> 2</span>
+            </div>
+          </a>
+          <a href="https://github.com/ZulhilmiSalahan-Kinesso/ui-automation-framework" target="_blank" rel="noopener" class="oss-card">
+            <div class="oss-card__icon"><i class="fas fa-desktop"></i></div>
+            <div class="oss-card__body">
+              <h4>ui-automation-framework</h4>
+              <p>Frontend UI test automation framework with JavaScript and Cypress</p>
+            </div>
+            <div class="oss-card__meta">
+              <span><i class="fas fa-circle" style="color:#f1e05a"></i> JavaScript</span>
+              <span><i class="fas fa-star"></i> 2</span>
+            </div>
+          </a>
+          <a href="https://github.com/ZulhilmiSalahan-Kinesso/api-automation-framework" target="_blank" rel="noopener" class="oss-card">
+            <div class="oss-card__icon"><i class="fas fa-plug"></i></div>
+            <div class="oss-card__body">
+              <h4>api-automation-framework</h4>
+              <p>API test automation framework built with Python for backend validation</p>
+            </div>
+            <div class="oss-card__meta">
+              <span><i class="fas fa-circle" style="color:#3572A5"></i> Python</span>
+              <span><i class="fas fa-star"></i> 1</span>
+            </div>
+          </a>
+          <a href="https://github.com/ZulhilmiSalahan-Kinesso/data-automation-framework" target="_blank" rel="noopener" class="oss-card">
+            <div class="oss-card__icon"><i class="fas fa-database"></i></div>
+            <div class="oss-card__body">
+              <h4>data-automation-framework</h4>
+              <p>ETL and data pipeline test automation framework in Python</p>
+            </div>
+            <div class="oss-card__meta">
+              <span><i class="fas fa-circle" style="color:#3572A5"></i> Python</span>
+              <span><i class="fas fa-star"></i> 1</span>
+            </div>
+          </a>
+          <a href="https://github.com/ZulhilmiSalahan-Kinesso/mobile-automation-framework" target="_blank" rel="noopener" class="oss-card">
+            <div class="oss-card__icon"><i class="fas fa-mobile-alt"></i></div>
+            <div class="oss-card__body">
+              <h4>mobile-automation-framework</h4>
+              <p>Cross-platform mobile test automation framework using Appium</p>
+            </div>
+            <div class="oss-card__meta">
+              <span><i class="fas fa-code"></i> Mobile</span>
+              <span><i class="fas fa-star"></i> 1</span>
+            </div>
+          </a>
+          <a href="https://github.com/ZulhilmiSalahan-Kinesso/deployment-automation" target="_blank" rel="noopener" class="oss-card">
+            <div class="oss-card__icon"><i class="fas fa-rocket"></i></div>
+            <div class="oss-card__body">
+              <h4>deployment-automation</h4>
+              <p>CI/CD deployment automation pipelines for QA test environments</p>
+            </div>
+            <div class="oss-card__meta">
+              <span><i class="fas fa-infinity"></i> CI/CD</span>
+            </div>
+          </a>
         </div>
       </div>
-	</div>
-	-->
-    <!-- End Pricing Table Section -->
 
-	<!-- Counter Section Start -->
-	<!--
-    <div class="counters section" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row"> 
-          <div class="col-sm-6 col-md-3 col-lg-3">
-            <div class="wow fadeInUp" data-wow-delay=".2s">
-              <div class="facts-item"> 
-                <div class="icon">
-                  <i class="lnr lnr-magic-wand"></i>
-                </div>                
-                <div class="fact-count">
-                  <h3><span class="counter">100</span>%</h3>
-                  <h4>Faster</h4>
-                </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section section--dark" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Let's Connect</span>
+        <h2 class="section__title">Get In Touch</h2>
+        <p class="section__subtitle">Open to senior QA, automation, and AI testing opportunities</p>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info">
+          <h3>Let's build quality together</h3>
+          <p>
+            Whether you're looking for an experienced QA leader, a seasoned automation engineer, 
+            or someone to champion AI-first testing strategy at your organization — let's talk.
+          </p>
+          <div class="contact__items">
+            <a href="mailto:muhammadzulhilmi2493@gmail.com" class="contact__item">
+              <div class="contact__item-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="contact__item-label">Email</span>
+                <span class="contact__item-value">muhammadzulhilmi2493@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/muhammadzulhilmi/" target="_blank" rel="noopener" class="contact__item">
+              <div class="contact__item-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div>
+                <span class="contact__item-label">LinkedIn</span>
+                <span class="contact__item-value">linkedin.com/in/muhammadzulhilmi</span>
+              </div>
+            </a>
+            <a href="https://github.com/mzmstechnologies" target="_blank" rel="noopener" class="contact__item">
+              <div class="contact__item-icon"><i class="fab fa-github"></i></div>
+              <div>
+                <span class="contact__item-label">GitHub (Work)</span>
+                <span class="contact__item-value">github.com/mzmstechnologies</span>
+              </div>
+            </a>
+            <a href="https://github.com/ZulhilmiSalahan-Kinesso" target="_blank" rel="noopener" class="contact__item">
+              <div class="contact__item-icon"><i class="fab fa-github"></i></div>
+              <div>
+                <span class="contact__item-label">GitHub (KINESSO)</span>
+                <span class="contact__item-value">github.com/ZulhilmiSalahan-Kinesso</span>
+              </div>
+            </a>
+            <div class="contact__item">
+              <div class="contact__item-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <span class="contact__item-label">Location</span>
+                <span class="contact__item-value">Kuala Lumpur, Malaysia</span>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-            <div class="wow fadeInUp" data-wow-delay=".4s">
-              <div class="facts-item">
-                <div class="icon">
-                  <i class="lnr lnr-coffee-cup"></i>
-                </div>                
-                <div class="fact-count">
-                  <h3><span class="counter">700</span></h3>
-                  <h4>Cup of Coffee</h4>
-                </div>
-              </div>
+        </div>
+        <div class="contact__cta-panel">
+          <div class="contact__cta-card">
+            <div class="contact__cta-icon"><i class="fas fa-paper-plane"></i></div>
+            <h3>Ready to connect?</h3>
+            <p>Send me an email directly and I'll get back to you within 24 hours.</p>
+            <a href="mailto:muhammadzulhilmi2493@gmail.com" class="btn btn--primary btn--lg">
+              <i class="fas fa-envelope"></i> Send Email
+            </a>
+            <a href="https://www.linkedin.com/in/muhammadzulhilmi/" target="_blank" rel="noopener" class="btn btn--ghost btn--lg">
+              <i class="fab fa-linkedin-in"></i> Connect on LinkedIn
+            </a>
+            <div class="contact__divider">
+              <span>or</span>
             </div>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-            <div class="wow fadeInUp" data-wow-delay=".6s">
-              <div class="facts-item">
-                <div class="icon">
-                  <i class="lnr lnr-user"></i>
-                </div>                
-                <div class="fact-count">
-                  <h3><span class="counter">10000</span>+</h3>
-                  <h4>Active Clients</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3 col-lg-3">
-            <div class="wow fadeInUp" data-wow-delay=".8s">
-              <div class="facts-item">
-                <div class="icon">
-                  <i class="lnr lnr-heart"></i>
-                </div>                
-                <div class="fact-count">
-                  <h3><span class="counter">1689</span></h3>
-                  <h4>Peoples Love</h4>
-                </div>
-              </div>
-            </div>
+            <a href="Resume-ZulhilmiSalahan.docx" download class="btn btn--resume btn--lg">
+              <i class="fas fa-file-word"></i> Download Resume
+            </a>
           </div>
         </div>
       </div>
-	</div>
-	-->
-    <!-- Counter Section End -->
+    </div>
+  </section>
 
-	<!-- testimonial Section Start -->
-	<!--
-    <div id="testimonial" class="section">
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-md-10 wow fadeInRight" data-wow-delay="0.2s">
-            <div class="touch-slider owl-carousel owl-theme">
-              <div class="testimonial-item">
-                <img src="img/testimonial/customer1.png" alt="Client Testimonoal" />
-                <div class="testimonial-text">
-                  <p>Morbi eget dictum enim. Praesent sed quam sit amet lorem tempor rhoncus. <br>In hac habitasse platea dictumst. Vivamus in accumsan ex</p>
-                  <h3>Johnathan Doe</h3>
-                  <span>Marketing Head Matrix media</span>
-                </div>
-              </div>
-              <div class="testimonial-item">
-                <img src="img/testimonial/customer2.png" alt="Client Testimonoal" />
-                <div class="testimonial-text">
-                  <p>Morbi eget dictum enim. Praesent sed quam sit amet lorem tempor rhoncus. <br>In hac habitasse platea dictumst. Vivamus in accumsan ex</p>
-                  <h3>Oidila Matik</h3>
-                  <span>President Lexo Inc</span>
-                </div>
-              </div>
-              <div class="testimonial-item">
-                <img src="img/testimonial/customer3.png" alt="Client Testimonoal" />
-                <div class="testimonial-text">
-                  <p>Morbi eget dictum enim. Praesent sed quam sit amet lorem tempor rhoncus. <br>In hac habitasse platea dictumst. Vivamus in accumsan ex</p>
-                  <h3>- Alex Dattilo</h3>
-                  <span>CEO Optima Inc</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>        
-      </div>
-	</div>
-	-->
-    <!-- testimonial Section Start -->
-
-	<!-- Download Section Start -->
-	<!--
-    <section id="download" class="section">
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><span>Download</span> Our App</h2>
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#hero" class="nav__logo">MZ<span>.</span></a>
+          <p>Staff Quality Engineer &amp; AI Testing Specialist</p>
         </div>
-        <div class="row">
-          <div class="col-md-12">            
-            <div class="download-area text-center wow fadeInUp" data-wow-delay="0.3s">
-                <a href="#" class="btn btn-border"><i class="fa fa-apple"></i>Download Now</a>
-            </div>
-          </div>
+        <div class="footer__links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/in/muhammadzulhilmi/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/mzmstechnologies" target="_blank" rel="noopener" aria-label="GitHub Work"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/ZulhilmiSalahan-Kinesso" target="_blank" rel="noopener" aria-label="GitHub KINESSO"><i class="fab fa-github"></i></a>
+          <a href="mailto:muhammadzulhilmi2493@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
-	</section>
-	-->
-    <!-- Download Section End -->
-
-	<!-- Blog Section -->
-	<!--
-    <section id="blog" class="section">
-      // Container Starts
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Latest <span>Blogs</span></h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
-            // Blog Item Starts
-            <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.3s">
-              <div class="blog-item-img">
-                <a href="single-post.html">
-                  <img src="img/blog/img1.jpg" alt="">
-                </a>                
-              </div>
-              <div class="blog-item-text"> 
-                <h3>
-                <a href="#">How often should you tweet?</a>
-                </h3>
-                <div class="meta-tags">
-                  <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 23, 2018</span>
-                  <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span>
-                </div>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... 
-                </p>
-                <a href="single-post.html" class="btn btn-common btn-rm">Read More</a>
-              </div>
-            </div>
-            // Blog Item Wrapper Ends
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
-            //  Blog Item Starts
-            <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.6s">
-              <div class="blog-item-img">
-                <a href="single-post.html">
-                  <img src="img/blog/img2.jpg" alt="">
-                </a>                
-              </div>
-              <div class="blog-item-text"> 
-                <h3>
-                  <a href="#">Content is still king</a>
-                </h3>
-                <div class="meta-tags">
-                  <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 29, 2018</span>
-                  <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span>
-                </div>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... 
-                </p>
-                <a href="single-post.html" class="btn btn-common btn-rm">Read More</a>
-              </div>
-            </div>
-            // Blog Item Wrapper Ends
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item">
-            // Blog Item Starts
-            <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.9s">
-              <div class="blog-item-img">
-                <a href="single-post.html">
-                  <img src="img/blog/img3.jpg" alt="">
-                </a>                
-              </div>
-              <div class="blog-item-text">    
-                <h3>
-                  <a href="#">Social media at work</a>
-                </h3>
-                <div class="meta-tags">
-                  <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 21, 2018</span>
-                  <span class="comments"><a href="#"><i class="lnr lnr-bubble"></i> 24 Comments</a></span>
-                </div>
-                <p>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... 
-                </p>
-                <a href="single-post.html" class="btn btn-common btn-rm">Read More</a>
-              </div>
-            </div>
-            // Blog Item Wrapper Ends
-          </div>
-        </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Muhammad Zulhilmi Md Salahan. Built with pure HTML, CSS &amp; JS — deployed on GitHub Pages.</p>
       </div>
-	</section>
-	-->
-    <!-- blog Section End -->
+    </div>
+  </footer>
 
-	<!-- Contact Section Start -->
-	<!--
-    <section id="contact" class="section">
-      <div class="container">
-        <div class="row justify-content-md-center">          
-          <div class="col-md-9 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">            
-            <div class="contact-block">
-              <div class="section-header">          
-                <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Contact <span>Us</span></h2>
-                <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-              </div>
-              <form id="contactForm">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
-                      <div class="help-block with-errors"></div>
-                    </div>                                 
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                      <div class="help-block with-errors"></div>
-                    </div> 
-                  </div>
-                   <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group"> 
-                      <textarea class="form-control" placeholder="Your Message" rows="11" data-error="Write your message" required></textarea>
-                      <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="submit-button text-center">
-                      <button class="btn btn-common" id="submit" type="submit">Send Message</button>
-                      <div id="msgSubmit" class="h3 text-center hidden"></div> 
-                      <div class="clearfix"></div> 
-                    </div>
-                  </div>
-                </div>            
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-	</section>
--->
-    <!-- Contact Section End -->
-
-	<!-- Subcribe Section Start -->
-	<!--
-    <div id="subscribe" class="section">
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Subscribe <span>Newsletter</span></h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Subscribe to get all latest news from us.</p>
-        </div>
-        <div class="row justify-content-md-center">
-          <div class="col-md-8">
-              <form class="text-center form-inline wow fadeInUp" data-wow-delay="0.3s">
-                <input class="mb-20 form-control" name="email" placeholder="Your Email Address">
-                <button class="sub_btn">subscribe</button>
-              </form>
-          </div>
-        </div>
-      </div>
-	</div>
--->
-    <!-- Subcribe Section End -->
-
-	<!-- Footer Section Start -->
-	<!--
-    <footer>          
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="social-icons wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <ul>
-                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              </ul>
-            </div>
-            <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <p>All copyrights reserved &copy; 2017 - Designed & Developed by <a rel="nofollow" href="https://uideck.com">UIdeck</a></p>
-            </div>  
-          </div>
-        </div>
-      </div>
-	</footer>
--->
-    <!-- Footer Section End --> 
-
-    <!-- Go To Top Link -->
-    <a href="#" class="back-to-top">
-      <i class="lnr lnr-arrow-up"></i>
-    </a>
-
-    <div id="loader">
-      <div class="spinner">
-        <div class="double-bounce1"></div>
-        <div class="double-bounce2"></div>
-      </div>
-    </div>    
-
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-	<script>
-	var curr_height = window.innerHeight;
-	console.log(curr_height);
-
-	var elem = document.getElementById("video-area");
-	elem.style.height = curr_height + "px";
-	</script>
-	<script src="js/jquery-min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/nivo-lightbox.js"></script>
-    <script src="js/owl.carousel.min.js"></script>    
-    <script src="js/jquery.stellar.min.js"></script>    
-    <script src="js/jquery.nav.js"></script>    
-    <script src="js/smooth-scroll.js"></script>    
-    <script src="js/smooth-on-scroll.js"></script>    
-    <script src="js/wow.js"></script>    
-    <script src="js/menu.js"></script>
-    <script src="js/jquery.vide.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>    
-    <script src="js/jquery.magnific-popup.min.js"></script>    
-    <script src="js/waypoints.min.js"></script>    
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>     
-    <script src="js/main.js"></script>
-    
-  </body>
+  <script src="js/portfolio.js"></script>
+</body>
 </html>
